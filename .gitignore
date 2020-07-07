@@ -25,3 +25,6 @@ rebel.xml
 
 src/main/resources/application-dev.yml
 src/main/resources/application-docker.yml
+src/main/resources/templates/classic/photo/
+src/main/java/com/mtons/mblog/web/controller/site/ChannelController.java
+src/main/resources/logback-spring.xml
