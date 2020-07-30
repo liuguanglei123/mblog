@@ -1,4 +1,4 @@
-FROM maven:3.5.4-jdk-8
+FROM maven:3.6.3-jdk-8
 MAINTAINER guanglei
 
 WORKDIR /app/mblog
