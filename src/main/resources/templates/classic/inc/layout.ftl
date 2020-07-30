@@ -60,8 +60,8 @@
     <link href="<@resource src=options['site_favicon']/>" rel="apple-touch-icon-precomposed" />
     <link href="<@resource src=options['site_favicon']/>" rel="shortcut icon" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.6.1/viewer.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.6.1/viewer.js"></script>
+    <link rel="stylesheet" href="${base}/dist/css/viewer.css">
+    <script src="${base}/dist/js/viewer.js"></script>
 
 </head>
 <body>

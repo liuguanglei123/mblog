@@ -28,3 +28,4 @@ src/main/resources/application-docker.yml
 src/main/resources/templates/classic/photo/
 src/main/java/com/mtons/mblog/web/controller/site/ChannelController.java
 src/main/resources/logback-spring.xml
+/storage/thumbnails/_signature/3FE0JH9KO8OTPKG8QBHP27TTR7.jpg
