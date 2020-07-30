@@ -1,5 +1,5 @@
 FROM maven:3.5.4-jdk-8
-MAINTAINER mtons
+MAINTAINER guanglei
 
 WORKDIR /app/mblog
 ADD . /build

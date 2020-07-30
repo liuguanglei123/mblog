@@ -2,7 +2,7 @@ version: '3'
 services:
     server:
         container_name: mblog-server
-        image: langhsu/mblog:latest
+        image: guanglei/mblog:latest
         build: .
         working_dir: /app/mblog
         environment:
