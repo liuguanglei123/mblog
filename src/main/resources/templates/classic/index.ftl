@@ -59,4 +59,10 @@
     </div>
 </div>
 
+<script type="text/javascript">
+    seajs.use('ipandlocationpost', function (ipandlocationpost) {
+        ipandlocationpost.postip();
+    });
+</script>
+
 </@layout>

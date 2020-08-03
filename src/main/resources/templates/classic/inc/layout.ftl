@@ -63,6 +63,8 @@
     <link rel="stylesheet" href="${base}/dist/css/viewer.css">
     <script src="${base}/dist/js/viewer.js"></script>
 
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+
 </head>
 <body>
     <!-- header -->

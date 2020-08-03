@@ -14,6 +14,7 @@ seajs.config({
         'view': 'dist/js/modules/view',
         'validate': 'dist/js/modules/validate',
         'markdown': 'dist/js/modules/markdown',
+        'ipandlocationpost': 'dist/js/modules/ipandlocationpost',
 
         /* vendors */
         'pace': 'vendors/pace/pace.min',
