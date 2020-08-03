@@ -20,7 +20,7 @@ define(function(require, exports, module) {
             var isPostedIp = this.getCookie('isPostedIp');
             if(isPostedIp === ""){
                 var json = {
-                    cip:returnCitySN['cip'],
+                    cip:this.getIP(json),
                 };
                 //发起ajax请求
                 jQuery.ajax({
@@ -48,10 +48,26 @@ define(function(require, exports, module) {
             d.setTime(d.getTime()+(exdays*24*60*60*1000));
             var expires = "expires="+d.toGMTString();
             document.cookie = cname+"="+cvalue+"; "+expires;
+        },
+
+        getIP : function() {
+            var result = '';
+            jQuery.ajax({
+                async:false,
+                type:'GET',
+                url: "https://api.ipify.org/",
+                success:function (callback) {
+                    result = callback;   // 赋值给刚才定义的值
+                }
+            });
+            console.log(result);
+            return result;
         }
+
     };
 
     exports.postip = function () {
         new GetIp().postip();
     }
 });
+
